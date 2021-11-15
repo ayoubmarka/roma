@@ -6,7 +6,7 @@
 	  <!-- Mobile Viewport -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <!-- Title -->
-      <title>Home | KhawaDawa</title>
+      <title>One Page | KhawaDawa</title>
 	  <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
@@ -26,88 +26,55 @@
       <link href="assets/css/responsive.css" rel="stylesheet">
    </head>
    <body>
-	  <!-- Header Area Start -->
-      <header class="header header-fixed">
+      <header class="header header-fixed sticky_header">
          <div class="container">
             <div class="row">
                <div class="col-lg-3 col-md-12">
                   <div class="logo">
-                     <a href="">
+                     <a href="#home">
                      <img src="assets/img/logo.png" alt="" />
                      </a>
                   </div>
                </div>
                <div class="col-lg-9 col-md-12 text-right">
                   <div class="mainmenu">
-                     <ul id="navbar-nav">
-                        <li class="has-child">
-                           <a href="#">Home</a>
-                           <ul class="sub-menu">
-                              <li><a href="index.html">Home One</a></li>
-                              <li><a href="home2.html">Home Two</a></li>
-                              <li><a href="home3.html">Home Three</a></li>
-                              <li><a href="home4.html">Home Four</a></li>
-                              <li><a href="one_page.html">One Page v1</a></li>
-                              <li><a href="one_page_2.html">One Page v2</a></li>
-                              <li><a href="one_page_3.html">One Page v3</a></li>
-                              <li><a href="one_page_4.html">One Page v4</a></li>
-                           </ul>
+                     <ul id="navbar-nav" class="onepage_nav">
+                        <li><a href="#home">Home</a>
                         </li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#testimonial">Testimonials</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reservation">Reservation</a></li>
                         <li class="has-child">
-                           <a href="#">About Us</a>
+                           <a href="#blog">Blog</a>
                            <ul class="sub-menu">
-                              <li><a href="about.html">About Us 1</a></li>
-                              <li><a href="about1.html">About Us 2</a></li>
-                           </ul>
-                        </li>
-                        <li class="has-child">
-                           <a href="#">Menu</a>
-                           <ul class="sub-menu">
-                              <li><a href="menu.html">Menu Style 1</a></li>
-                              <li><a href="menu1.html">Menu Style 2</a></li>
-                           </ul>
-                        </li>
-                        <li><a href="reservation.html">Reservation</a></li>
-                        <li class="has-child">
-                           <a href="#">Blog</a>
-                           <ul class="sub-menu">
-                              <li><a href="blog.html">Blog</a></li>
                               <li><a href="single-left-sidebar.html">Blog Left Sidebar</a></li>
                               <li><a href="single-right-sidebar.html">Blog Right Sidebar</a></li>
                            </ul>
                         </li>
-                        <li>
-                           <a href="">Pages</a>
-                           <!-- <ul class="sub-menu">
-                              <li><a href="testimonial.html">Testimonial</a></li>
-                              <li><a href="404.html">404 Page</a></li>
-                              <li><a href="services.html">Services</a></li>
-                           </ul> -->
-                        </li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                      </ul>
                   </div>
                </div>
             </div>
          </div>
       </header>
-	  <!-- Header Area End -->
-	  <!-- Welcome Area Start -->
-      <section class="welcome-area">
+      <section class="welcome-area" id="home">
          <div class="single-slide slide-bg-1">
             <div class="slider_text text-center">
                <div class="slider_tablecell">
                   <div class="container">
                      <div class="row">
                         <div class="col-xl-12">
-                           <p>fresh food every day</p>
-                           <h2>welcome to our restaurant</h2>
+                           <p>welcome to our restaurant</p>
+                           <h2>one page website</h2>
                            <div class="box_btn">
                               <a href="#">book now</a>
                            </div>
                            <div class="box_btn">
-                              <a href="#">order now</a>
+                              <a href="#">our menu</a>
                            </div>
                         </div>
                      </div>
@@ -116,12 +83,10 @@
             </div>
          </div>
       </section>
-	  <!-- Welcome Area End -->
-	  <!-- About Area Start -->
-      <section class="about mt-60 mb-60">
+      <section class="about pt-60 pb-60" id="about">
          <div class="container">
             <div class="row">
-               <div class="col-lg-7">
+               <div class="col-lg-7 col-md-12">
                   <div class="section-title text-center">
                      <p>Famous for good food</p>
                      <h4>about us</h4>
@@ -136,18 +101,17 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-5">
-                  <div class="gallery-shadow">
+               <div class="col-lg-5 col-md-12">
+                  <div class="gallery-shadow tile_gallery">
                      <img src="assets/img/about/about-1.jpg" alt="" />
+                     <img src="assets/img/about/about-2.jpg" alt="" />
                   </div>
                </div>
             </div>
          </div>
       </section>
-	  <!-- About Area End -->
-	  <!-- Menu Area Start -->
       <hr class="horizontal" />
-      <section class="menu_list mt-60 mb-60">
+      <section class="menu_list pt-60 pb-60" id="menu">
          <div class="container">
             <div class="row">
                <div class="col-xl-12">
@@ -160,13 +124,13 @@
             <div class="row">
                <ul class="nav nav-tabs menu_tab" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab">Breakfast</a>
+                     <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab">Lunch</a>
+                     <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab">Dinner</a>
+                     <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" aria-selected="false">Dinner</a>
                   </li>
                </ul>
             </div>
@@ -174,7 +138,7 @@
                <div class="tab-content col-xl-12" id="myTabContent">
                   <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
                      <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single_menu_list">
                               <img src="assets/img/menu/menu-1.jpg" alt="" />
                               <div class="menu_content">
@@ -197,7 +161,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single_menu_list">
                               <img src="assets/img/menu/menu-4.jpg" alt="" />
                               <div class="menu_content">
@@ -224,7 +188,7 @@
                   </div>
                   <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
                      <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single_menu_list">
                               <img src="assets/img/menu/menu-6.jpg" alt="" />
                               <div class="menu_content">
@@ -247,7 +211,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single_menu_list">
                               <img src="assets/img/menu/menu-5.jpg" alt="" />
                               <div class="menu_content">
@@ -274,7 +238,7 @@
                   </div>
                   <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
                      <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single_menu_list">
                               <img src="assets/img/menu/menu-5.jpg" alt="" />
                               <div class="menu_content">
@@ -297,7 +261,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single_menu_list">
                               <img src="assets/img/menu/menu-2.jpg" alt="" />
                               <div class="menu_content">
@@ -327,14 +291,12 @@
             <div class="row">
                <div class="col-xl-12 text-center">
                   <div class="box_btn">
-                     <a href="#">view more</a>
+                     <a href="#">load more</a>
                   </div>
                </div>
             </div>
          </div>
       </section>
-	  <!-- Menu Area End -->
-	  <!-- Top CTA Area Start -->
       <section class="top_cat">
          <div class="container">
             <div class="row">
@@ -347,61 +309,109 @@
             </div>
          </div>
       </section>
-	  <!-- Top CTA Area End -->
-	  <!-- Special Menu Area Start -->
-      <section class="special_menu mt-60 mb-60">
+      <section class="services pt-60 pb-60" id="services">
          <div class="container">
             <div class="row">
                <div class="col-xl-12">
-                  <div class="section-title text-center">
-                     <p>Famous for good food</p>
-                     <h4>special menu</h4>
+                  <div class="section-title text-center mb-60">
+                     <p>Best place for friends & family</p>
+                     <h4>our services</h4>
                   </div>
                </div>
             </div>
             <div class="row">
-               <div class="col-lg-4 col-md-6">
-                  <div class="single_special">
-                     <img src="assets/img/sp1.jpg" alt="">
-                     <ul class="set_menu">
-                        <li>Fried Rice x 1<span>Price: $9.00</span></li>
-                        <li>Checken x 2<span>Price: $15.00</span></li>
-                        <li>Salad x 1<span>Price: $7.00</span></li>
-                        <li>1 250ml x 1<span>Price: $3.00</span></li>
-                        <li class="total">Total:<span>$24.00</span></li>
-                     </ul>
+               <div class="col-md-4 col-sm-12">
+                  <div class="single_service service_right">
+                     <img src="assets/img/services/service-1.png" alt="" />
+                     <h4>Online Reservations</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="single_service service_right">
+                     <img src="assets/img/services/service-2.png" alt="" />
+                     <h4>Popular Dishes</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="single_service service_right">
+                     <img src="assets/img/services/service-3.png" alt="" />
+                     <h4>Online Order</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="single_special">
-                     <img src="assets/img/sp2.jpg" alt="">
-                     <ul class="set_menu">
-                        <li>Fried Rice x 1<span>Price: $9.00</span></li>
-                        <li>Checken x 2<span>Price: $15.00</span></li>
-                        <li>Salad x 1<span>Price: $7.00</span></li>
-                        <li>1 250ml x 1<span>Price: $3.00</span></li>
-                        <li class="total">Total:<span>$24.00</span></li>
-                     </ul>
+               <div class="col-md-4 col-sm-12 text-center">
+                  <div class="single_mid">
+                     <img src="assets/img/service_mid.png" alt="" />
                   </div>
                </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="single_special">
-                     <img src="assets/img/sp3.jpg" alt="">
-                     <ul class="set_menu">
-                        <li>Fried Rice x 1<span>Price: $9.00</span></li>
-                        <li>Checken x 2<span>Price: $15.00</span></li>
-                        <li>Salad x 1<span>Price: $7.00</span></li>
-                        <li>1 250ml x 1<span>Price: $3.00</span></li>
-                        <li class="total">Total:<span>$24.00</span></li>
-                     </ul>
+               <div class="col-md-4 col-sm-12">
+                  <div class="single_service">
+                     <img src="assets/img/services/service-4.png" alt="" />
+                     <h4>24/7 Service</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="single_service">
+                     <img src="assets/img/services/service-5.png" alt="" />
+                     <h4>Candle Light Dinner</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="single_service">
+                     <img src="assets/img/services/service-6.png" alt="" />
+                     <h4>Special Local Foods</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                </div>
             </div>
          </div>
       </section>
-	  <!-- Special Menu Area End -->
-	  <!-- Testimonial Area Start -->
-      <section class="testimonial pt-60 pb-60">
+	  <hr class="horizontal" />
+	  <section class="team pt-60 pb-60" id="team">
+		<div class="container">
+			<div class="row pt">
+               <div class="col-xl-12">
+                  <div class="section-title text-center mb-60">
+                     <p>Famous for good food</p>
+                     <h4>our chef</h4>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="single_team">
+                     <img src="assets/img/team1.jpg" alt="" />
+                     <div class="team_hover">
+                        <h4>john doe</h4>
+                        <p>chief chef</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="single_team">
+                     <img src="assets/img/team2.jpg" alt="" />
+                     <div class="team_hover">
+                        <h4>john doe</h4>
+                        <p>chief chef</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="single_team">
+                     <img src="assets/img/team3.jpg" alt="" />
+                     <div class="team_hover">
+                        <h4>john doe</h4>
+                        <p>chief chef</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="single_team">
+                     <img src="assets/img/team4.jpg" alt="" />
+                     <div class="team_hover">
+                        <h4>john doe</h4>
+                        <p>chief chef</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+		</div>
+	  </section>
+      <section class="testimonial pt-60 pb-60" id="testimonial">
          <div class="container">
             <div class="row">
                <div class="col-xl-12">
@@ -413,7 +423,7 @@
             </div>
             <div class="row">
                <div class="col-xl-12">
-                  <div class="testimonial_area no-border owl-carousel">
+                  <div class="testimonial_area no-border main_testi owl-carousel">
                      <div class="single_testimonial">
                         <img src="assets/img/testimonial/testimonial-5.jpg" alt="" />
                         <p>1 Most effected site increasem the number of backlink inbound another seo tacte by may 2015 mobile search surpassed search was reported that google and morem our country promoting occaecat cupidatat proident, sunt cofficia deserunt numbe of backlink inbound another seo tacte search.</p>
@@ -425,7 +435,7 @@
                         <h4>Abraham karton<span>Speacial Chief</span></h4>
                      </div>
                      <div class="single_testimonial">
-                        <img src="assets/img/testimonial/testimonial-4.jpg" alt="" />
+                        <img src="assets/img/testimonial/testimonial-3.jpg" alt="" />
                         <p>3 Most effected site increasem the number of backlink inbound another seo tacte by may 2015 mobile search surpassed search was reported that google and morem our country promoting occaecat cupidatat proident, sunt cofficia deserunt numbe of backlink inbound another seo tacte search.</p>
                         <h4>Abraham karton<span>Speacial Chief</span></h4>
                      </div>
@@ -434,51 +444,105 @@
             </div>
          </div>
       </section>
-	  <!-- Testimonial Area End -->
-	  <!-- Reservation Area Start -->
-      <hr class="horizontal" />
-      <section class="reservation pt-60 pb-60">
+	    <!-- Gallery Area Start -->
+      <section class="gallery-area pt-60 pb-60" id="gallery">
          <div class="container">
             <div class="row">
-               <div class="col-lg-7 col-md-12 ml-auto">
+               <div class="col-xl-12">
                   <div class="section-title text-center mb-60">
                      <p>Book your table now</p>
-                     <h4>Best dining experience</h4>
+                     <h4>our gallery</h4>
                      <span></span>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <a href="assets/img/gallery/gallery-1.jpg" class="single_gallery">
+                  <img src="assets/img/gallery/gallery-1.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <a href="assets/img/gallery/gallery-2.jpg" class="single_gallery">
+                  <img src="assets/img/gallery/gallery-2.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <a href="assets/img/gallery/gallery-3.jpg" class="single_gallery">
+                  <img src="assets/img/gallery/gallery-3.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <a href="assets/img/gallery/gallery-4.jpg" class="single_gallery">
+                  <img src="assets/img/gallery/gallery-4.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <a href="assets/img/gallery/gallery-5.jpg" class="single_gallery">
+                  <img src="assets/img/gallery/gallery-5.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <a href="assets/img/gallery/gallery-6.jpg" class="single_gallery">
+                  <img src="assets/img/gallery/gallery-6.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <a href="assets/img/gallery/gallery-7.jpg" class="single_gallery">
+                  <img src="assets/img/gallery/gallery-7.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <a href="assets/img/gallery/gallery-8.jpg" class="single_gallery">
+                  <img src="assets/img/gallery/gallery-8.jpg" alt="" />
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+	  <!-- Gallery Area End -->
+      <hr class="horizontal" />
+      <section class="reservation pt-60 pb-60" id="reservation">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-7 col-sm-12 ml-auto">
+                  <div class="section-title text-center">
+                     <p>Book your table now</p>
+                     <h4>Best dining experience</h4>
                   </div>
                   <form action="#" class="">
                      <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single-booking">
                               <input name="name" placeholder="Name" class="form-control" required="" type="text">
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single-booking">
                               <input name="name" placeholder="Email" class="form-control" required="" type="text">
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single-booking">
                               <input name="name" placeholder="Phone Number" class="form-control" required="" type="text">
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single-booking">
                               <input name="name" placeholder="Date" class="form-control" required="" type="text">
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single-booking">
                               <input name="name" placeholder="Time" class="form-control" required="" type="text">
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                            <div class="single-booking">
                               <input name="name" placeholder="Number of Persons" class="form-control" required="" type="text">
                            </div>
                         </div>
-                        <div class="col-xl-12 text-center">
+                        <div class="col-lg-12 text-center">
                            <div class="box_btn">
                               <a href="#">book now</a>
                            </div>
@@ -489,8 +553,7 @@
             </div>
          </div>
       </section>
-	  <!-- Reservation Area End -->
-	  <!-- Bottom CTA Area Start -->
+      <!-- Bottom CTA Area Start -->
       <section class="cta text-center">
          <div class="container">
             <div class="row">
@@ -507,68 +570,132 @@
          </div>
       </section>
 	  <!-- Bottom CTA Area End -->
-	  <!-- Footer Area Start -->
-      <footer class="footer">
+	  <!-- Blog Area Start -->
+      <section class="blog-area pt-60" id="blog">
          <div class="container">
             <div class="row">
-               <div class="col-xl-3 col-md-2 col-sm-6">
-                  <div class="single_footer">
-                     <img src="assets/img/logo.png" class="img-responsive" alt="" />
-                  </div>
-               </div>
-               <div class="col-xl-2 col-md-3 col-sm-6">
-                  <div class="single_footer arrow">
-                     <h4>quick links</h4>
-                     <ul>
-                        <li><a href="">home</a></li>
-                        <li><a href="">menu</a></li>
-                        <li><a href="">reservation</a></li>
-                        <li><a href="">gallery</a></li>
-                        <li><a href="">contact us</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6">
-                  <div class="single_footer arrow">
-                     <h4>opening hours</h4>
-                     <ul>
-                        <li>Monday - Friday : 8.00am - 9.00pm</li>
-                        <li>Saturday : 2.00pm - 9.00pm</li>
-                        <li>Sunday : Close</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6">
-                  <div class="single_footer">
-                     <h4>contact us</h4>
-                     <ul>
-                        <li><i class="fa fa-map-marker"></i> #234 New Street, Michigan, USA</li>
-                        <li><i class="fa fa-phone"></i> 01663 745 885 / 308 022</li>
-                        <li><i class="fa fa-envelope"></i> info@khawadawa.com</li>
-                     </ul>
+               <div class="col-xl-12">
+                  <div class="section-title text-center mb-60">
+                     <p>Book your table now</p>
+                     <h4>Latest blog</h4>
+                     <span></span>
                   </div>
                </div>
             </div>
-            <hr class="horizontal" />
             <div class="row">
-               <div class="col-sm-6">
-                  <div class="footer_social">
-                     <ul>
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href=""><i class="fa fa-pinterest"></i></a></li>
-                     </ul>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="single_blog">
+                     <img src="assets/img/blog/blog-3.jpg" alt="" />
+                     <div class="blog_content">
+                        <ul>
+                           <li><a href="">admin</a></li>
+                           <li><a href="">10 july</a></li>
+                           <li><a href="">4 comments</a></li>
+                        </ul>
+                        <h4><a href="">blog title here</a></h4>
+                        <p>But I must explain to you how all mistaken idea of denouncing pleasure and praising pain was born and I will give you a full account of the system... </p>
+                        <a href="#" class="blog_more">read more <i class="fa fa-long-arrow-right"></i></a>
+                     </div>
                   </div>
                </div>
-               <div class="col-sm-6 text-right">
-                  <div class="copy">
-                     <p>&copy; All Rights Reserved 2020</p>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="single_blog">
+                     <img src="assets/img/blog/blog-4.jpg" alt="" />
+                     <div class="blog_content">
+                        <ul>
+                           <li><a href="">admin</a></li>
+                           <li><a href="">10 july</a></li>
+                           <li><a href="">4 comments</a></li>
+                        </ul>
+                        <h4><a href="">blog title here</a></h4>
+                        <p>But I must explain to you how all mistaken idea of denouncing pleasure and praising pain was born and I will give you a full account of the system... </p>
+                        <a href="#" class="blog_more">read more <i class="fa fa-long-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="single_blog">
+                     <img src="assets/img/blog/blog-5.jpg" alt="" />
+                     <div class="blog_content">
+                        <ul>
+                           <li><a href="">admin</a></li>
+                           <li><a href="">10 july</a></li>
+                           <li><a href="">4 comments</a></li>
+                        </ul>
+                        <h4><a href="">blog title here</a></h4>
+                        <p>But I must explain to you how all mistaken idea of denouncing pleasure and praising pain was born and I will give you a full account of the system... </p>
+                        <a href="#" class="blog_more">read more <i class="fa fa-long-arrow-right"></i></a>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </footer>
+      </section>
+	  <!-- Blog Area End -->
+	  <section class="contact-area pt-60 pb-60" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="section-title text-center mb-60">
+						<p>Best place for friends &amp; family</p>
+						<h4>contact</h4>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="page-title">
+						<h2>get in touch</h2>
+					</div>
+					<form action="">
+						<input placeholder="name" type="text">
+						<input placeholder="email" type="text">
+						<input placeholder="subject" type="text">
+						<textarea name="" id="" placeholder="message"></textarea>
+						<input value="send message" type="submit">
+					</form>
+				</div>
+				<div class="col-md-6">
+					<div class="page-title">
+						<h2>our address</h2>
+					</div>
+					<div class="single_address">
+						<i class="fa fa-phone"></i>
+						<p>phone: <span>+009911223</span></p>
+					</div>
+					<div class="single_address">
+						<i class="fa fa-envelope"></i>
+						<p>email: <span>demo@demo.com</span></p>
+					</div>
+					<div class="single_address">
+						<i class="fa fa-map-marker"></i>
+						<p>address: <span>123, newyork, usa</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	  <!-- Footer Area Start -->
+      <footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 text-center">
+					<img src="assets/img/logo.png" alt="">
+					<div class="footer_social">
+						<ul>
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter"></i></a></li>
+							<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+							<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+					<div class="copy">
+						<p>© All Rights Reserved 2020</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
       <!-- Footer Area End -->
 	  <!-- Jquery JS -->
       <script src="assets/js/jquery.min.js"></script>
@@ -580,6 +707,8 @@
       <script src="assets/js/jquery.magnific-popup.min.js"></script>
 	  <!-- Typed JS -->
       <script src="assets/js/typed.js"></script>
+	  <!-- Onepagenav JS -->
+      <script src="assets/js/onepagenav.js"></script>
 	  <!-- Mobile Menu JS -->
       <script src="assets/js/jquery.slicknav.min.js"></script>
 	  <!-- Owl Carousel JS -->
